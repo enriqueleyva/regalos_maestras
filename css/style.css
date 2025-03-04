@@ -1,0 +1,70 @@
+.btn-buy-now {
+    background-color: black;
+    color: white;
+    border-radius: 0; /* Para bordes cuadrados como en la imagen */
+}
+.btn-buy-now:hover {
+    background-color: #333; /* Un gris más oscuro al pasar el ratón */
+    color: white;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.price-discount {
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 5px;
+}
+.price-sale {
+    font-weight: bold;
+    color: black; /* o el color deseado */
+    font-size: 1.2em; /* un poco más grande que el precio original */
+}
+.store-icon {
+    font-size: 1.5em; /* Ajusta el tamaño del icono del carrito */
+}
+body{
+    background-color: #D776AF;
+    font-family: 'Playwrite IT Moderna';
+}
+#navegacion{
+    background-color: #4C1466;
+}
+
+.col-md-4 { /* Columna del carrito */
+    position: sticky;
+    top: 20px; /* Ajusta este valor según necesites */
+    height: fit-content; /* Ajusta la altura al contenido */
+}
+
+.product-image {
+    max-width: 100%; /*  **** ESTO ES MUY IMPORTANTE **** */
+    height: auto;    /*  **** ESTO ES MUY IMPORTANTE **** */
+    display: block;  /* Opcional, pero recomendado para layout */
+}
+
+.btn-buy-now:hover{
+    background-color: #4C1466;
+    text-shadow: 0 0 10px #D776AF;
+    
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    color: white;
+}
+
+.navbar-brand:hover{
+    text-shadow: 0 0 10px #D776AF;
+    color: white;
+}
+
+.form-control{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 90%;
+}
+.form-control:focus{
+    text-shadow: 0 0 10px #D776AF;
+}
